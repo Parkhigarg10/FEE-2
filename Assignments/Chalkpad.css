@@ -1,0 +1,106 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    justify-content: right;
+    padding-right: 5%;
+    background: url('Chitkara_University_pic.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+    height: 70%;
+    padding-top: 120px;
+}
+
+.login-form {
+    background-color: white;
+    padding: 15px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    width: 90%;
+    text-align: center;
+}
+
+.login-form img {
+    width: 150px;
+    height: 100px;
+}
+
+.login-form h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.login-form input, .login-form select {
+    width: 90%;
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form .remember-password {
+    display:flexbox;
+    align-items:flex-start ;
+    justify-content: flex-start; 
+    margin-bottom: 10px;
+
+}
+
+#remember{
+    align-self: left;
+}
+.login-form button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form a {
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.login-form .privacy-policy {
+    margin-top: 10px;
+}
+
+.login-form .app-code  {
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.login-form .app-code p {
+    margin: 0;
+}
+
+
+.login-form .powered-by {
+    margin-top: 20px;
+    color: gray;
+    font-size: 12px;
+}
+
+.login-form .app-code img {
+    margin: 0;
+    width: 15%;
+    height: 15%;
+}
