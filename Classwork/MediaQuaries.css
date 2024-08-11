@@ -1,0 +1,36 @@
+body {
+    color: #ffffff;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: #ffffff;
+    background-color: #8b2020;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    background-color: #d07676;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 25%;
+    }
+}

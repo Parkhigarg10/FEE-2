@@ -1,0 +1,22 @@
+section{
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-rows: 250px 250px x;
+    grid-auto-rows: 100px;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-columns: repeat(3,300px);
+    gap: 10px;
+    row-gap: 10px;
+    column-gap: 20px;
+    grid-template-columns: repeat(3,1fr) ;
+    grid-template-columns: repeat(3,300px) ;
+    grid-template-columns: repeat(300px,1fr) ;
+    grid-template-columns: repeat(auto-fill,maxmin(300px, 4fr));
+
+}
+
+* div{
+    height: 100px;
+}
