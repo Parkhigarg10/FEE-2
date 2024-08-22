@@ -5,7 +5,7 @@
       background-color: #f9f9f9;
     }
 
-    /* Header Styles */
+
     .header {
       background-color: #333;
       color: #fff;
@@ -22,7 +22,6 @@
       color: #ccc;
     }
 
-    /* Navigation Styles */
     .nav {
       background-color: #444;
       padding: 10px;
@@ -49,7 +48,6 @@
       color: #ccc;
     }
 
-    /* Main Content Styles */
     .main {
       display: flex;
       flex-wrap: wrap;
@@ -101,7 +99,6 @@
       background-color: #23527c;
     }
 
-    /* Footer Styles */
     .footer {
       background-color: #333;
       color: #fff;
